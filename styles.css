@@ -105,12 +105,13 @@ header {
     max-width: 800px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /*cria grid*/
+    /* grid-template-columns: 1fr 1fr 1fr; cria grid */
     gap: 20px /*espaço entre elem. do grid*/
 }
 
 .card {
     background-attachment: var(--color-rocket);
+    
 }
 
 /*Para dar um fix na imagem, para ela respeitar o pai*/
